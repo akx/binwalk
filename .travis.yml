@@ -7,8 +7,8 @@ addons:
     update: true
 install:
   - ./deps.sh --yes
-  - pip install coverage
-  - ./setup.py install
+ - pip install pytest pytest-cov
+ - ./setup.py install
 script: ./setup.py test
 cache: pip
 jobs:
