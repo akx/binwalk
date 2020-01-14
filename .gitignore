@@ -1,5 +1,7 @@
+*.egg-info
+*.extracted
+*.py[cod]
+.coverage
 build
 dist
-.coverage
-*.extracted
-*.pyc
+version.py
